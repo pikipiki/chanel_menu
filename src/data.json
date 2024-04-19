@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "name": "Man",
+      "key": "man",
+      "items": [
+        {
+          "name": "Shirts",
+          "key": "shirts",
+          "items": [
+            {
+              "name": "Short shirts",
+              "key": "shortshirts",
+              "items": [
+                {
+                  "name": "Blue shirt",
+                  "key": "blueshirt",
+                  "items": [
+                    {
+                      "name": "Blue shirt taille M",
+                      "key": "blueshirttailleM",
+                      "items": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Long shirt",
+              "key": "longshirt",
+              "items": []
+            }
+          ]
+        },
+        {
+          "name": "Shoes",
+          "key": "shoes",
+          "items": []
+        }
+      ]
+    },
+    {
+      "name": "Women",
+      "key": "women",
+      "items": [
+        {
+          "name": "High heels",
+          "key": "highheels",
+          "items": [
+            {
+              "name": "Red high heel",
+              "key": "redhighheel",
+              "items": []
+            }
+          ]
+        },
+        {
+          "name": "Skirts",
+          "key": "skirts",
+          "items": []
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "key": "kids",
+      "items": [
+        {
+          "name": "Mini shoes",
+          "key": "minishoes",
+          "items": []
+        }
+      ]
+    }
+  ]
+}
