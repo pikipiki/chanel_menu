@@ -7,31 +7,32 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node tests/smoke.cjs"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.57.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.72.1-alpha.7",
+    "@typescript-eslint/parser": "^8.72.1-alpha.7",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.6",
-    "prettier": "^3.2.5",
-    "sass": "^1.75.0",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vite-plugin-svgr": "^4.2.0",
-    "vite-tsconfig-paths": "^4.3.2"
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "prettier": "^3.9.10",
+    "sass": "^1.106.1",
+    "typescript": "^7.1.0-dev.20261022.1",
+    "vite": "^8.3.5",
+    "vite-plugin-svgr": "^5.2.0",
+    "vite-tsconfig-paths": "^7.0.0-alpha.3"
   }
 }
